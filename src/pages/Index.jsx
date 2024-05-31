@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between" alignItems="center">
+      <Flex as="nav" bg="#f3f2f1" color="#000000" p={4} justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">
           Financial Times
         </Heading>
@@ -29,7 +29,7 @@ const Index = () => {
       </Flex>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" p={8} my={4}>
+      <Box bg="#f3f2f1" p={8} my={4}>
         <Heading as="h2" size="xl" mb={4}>
           Main Headline: Breaking News Story
         </Heading>
@@ -40,7 +40,7 @@ const Index = () => {
 
       {/* Additional News Articles */}
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} my={4}>
-        <Box bg="gray.50" p={4} borderRadius="md" boxShadow="md">
+        <Box bg="#f3f2f1" p={4} borderRadius="md" boxShadow="md">
           <Heading as="h3" size="md" mb={2}>
             Article 1
           </Heading>
@@ -48,7 +48,7 @@ const Index = () => {
             Brief description of the first additional news article. This should be a short summary to entice readers to click through.
           </Text>
         </Box>
-        <Box bg="gray.50" p={4} borderRadius="md" boxShadow="md">
+        <Box bg="#f3f2f1" p={4} borderRadius="md" boxShadow="md">
           <Heading as="h3" size="md" mb={2}>
             Article 2
           </Heading>
@@ -56,7 +56,7 @@ const Index = () => {
             Brief description of the second additional news article. This should be a short summary to entice readers to click through.
           </Text>
         </Box>
-        <Box bg="gray.50" p={4} borderRadius="md" boxShadow="md">
+        <Box bg="#f3f2f1" p={4} borderRadius="md" boxShadow="md">
           <Heading as="h3" size="md" mb={2}>
             Article 3
           </Heading>
@@ -67,7 +67,7 @@ const Index = () => {
       </SimpleGrid>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" p={4} mt={8}>
+      <Box as="footer" bg="#f3f2f1" color="#000000" p={4} mt={8}>
         <Flex justifyContent="space-between" alignItems="center">
           <Text>&copy; 2023 Financial Times</Text>
           <Flex>
